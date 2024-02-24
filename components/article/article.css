@@ -1,0 +1,28 @@
+.article {
+  margin-top: 80px;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  color: rgb(45, 45, 45);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+}
+
+.article__title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.article__content {
+  margin-bottom: 150px;
+}
+
+.article__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article__author {
+  font-style: normal;
+}
