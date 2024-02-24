@@ -1,3 +1,30 @@
+@font-face {
+  font-family: "Lato";
+  src: local("Lato"),
+  url(./assets/fonts/lato-bold.woff2) format(woff2),
+  url(./assets/fonts/lato-bold.woff) format(woff);
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato"),
+  url(./assets/fonts/lato-regular.woff2) format(woff2),
+  url(./assets/fonts/lato-regular.woff) format(woff);
+  font-weight: 400;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  color: rgb(45, 45, 45);
+}
+
 .container {
   max-width: 1920px;
   margin-left: auto;
