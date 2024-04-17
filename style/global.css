@@ -40,8 +40,8 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
-  color: var(--color-textPrimary);
-  background-color: var(--color-backgroundSecondary);
+  color: #fff;
+  background-color: #fff;
 }
 
 
@@ -145,6 +145,13 @@ cite {
 .btn {
   border-radius: 4px;
   background: #3670C7;
+}
+
+h1 {
+  width: 0;
+  height: 0;
+  transform: scale(0);
+  opacity: 0;
 }
 
 .h1,

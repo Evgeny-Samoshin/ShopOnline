@@ -2,4 +2,6 @@
 @import url(style/global.css);
 
 @import url(components/header.css);
+@import url(components/hero.css);
+
 @import url(components/article.css);

@@ -1,0 +1,54 @@
+.hero {
+  padding: 20px 0;
+}
+
+.hero__banner {
+  min-height: 340px;
+  border-radius: 8px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-image: url(../assets/img/banner-320.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
+
+.hero__slogan {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.hero__timer {
+  align-self: end;
+}
+
+.timer {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-template-rows: repeat(2, 1fr) ;
+  justify-items: center;
+  gap: 6px 8px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.timer__title {
+  font-size: 8px;
+  grid-column: 1 / 4;
+}
+
+.timer__numb {
+  font-size: 20px;
+}
+
+.timer__text {
+  font-size: 12px;
+}
