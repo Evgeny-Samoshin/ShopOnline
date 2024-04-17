@@ -1,0 +1,10 @@
+<svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<clipPath id="clip89_48">
+			<rect id="person" width="30.000000" height="30.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	<rect id="person" width="30.000000" height="30.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip89_48)">
+		<path id="Vector" d="M15 15C17.76 15 20 12.76 20 10C20 7.23 17.76 5 15 5C12.23 5 10 7.23 10 10C10 12.76 12.23 15 15 15ZM15 17.5C11.66 17.5 5 19.17 5 22.5L5 25L25 25L25 22.5C25 19.17 18.33 17.5 15 17.5Z" fill="#2D2D2D" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
+
