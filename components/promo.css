@@ -1,0 +1,193 @@
+.promo__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 130px) 280px repeat(4, 130px) 123px;
+  gap: 20px;
+}
+
+.promo__item {
+  border-radius: 8px;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.promo__item:nth-child(1) {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.promo__item:nth-child(2) {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.promo__item:nth-child(3) {
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+.promo__item:nth-child(4) {
+  grid-area: 3 / 1 / 4 / 3;
+}
+
+.promo__item:nth-child(5) {
+  grid-area: 4 / 1 / 5 / 3;
+}
+
+.promo__item:nth-child(6) {
+  grid-area: 5 / 1 / 6 / 3;
+}
+
+.promo__item:nth-child(7) {
+  grid-area: 6 / 1 / 8 / 2;
+}
+
+.promo__item:nth-child(8) {
+  grid-area: 6 / 2 / 7 / 3;
+}
+
+.promo__item:nth-child(9) {
+  grid-area: 7 / 2 / 8 / 3;
+}
+
+.promo__item:nth-child(10) {
+  grid-area: 8 / 1 / 9 / 3;
+}
+
+.promo__item_bg-1 {
+  background-image:
+    linear-gradient(181.25deg, rgba(0, 0, 0, 0) 9.116%, rgba(0, 0, 0, 0.2) 99.018%),
+    url(../assets/img/book.jpeg);
+}
+
+.promo__item_bg-2 {
+  background-image:
+    linear-gradient(181.25deg, rgba(0, 0, 0, 0) 9.116%, rgba(0, 0, 0, 0.2) 99.018%),
+    url(../assets/img/clock.jpeg);
+}
+
+.promo__item_bg-3 {
+  background-image:
+    linear-gradient(181.25deg, rgba(0, 0, 0, 0) 9.116%, rgba(0, 0, 0, 0.2) 99.018%),
+    url(../assets/img/shoose.jpeg);
+}
+
+.promo__item_bg-4 {
+  background-image:
+    linear-gradient(181.25deg, rgba(0, 0, 0, 0) 9.116%, rgba(0, 0, 0, 0.2) 99.018%),
+    url(../assets/img/shoose2.jpeg);
+}
+
+.promo__item_bg-5 {
+  background-image:
+    linear-gradient(181.25deg, rgba(0, 0, 0, 0) 9.116%, rgba(0, 0, 0, 0.2) 99.018%),
+    url(../assets/img/present.jpeg);
+}
+
+.promo__item_bg-6 {
+  background-image:
+    linear-gradient(181.25deg, rgba(0, 0, 0, 0) 9.116%, rgba(0, 0, 0, 0.2) 99.018%),
+    url(../assets/img/pc.jpeg);
+}
+
+.promo__item_bg-7 {
+  background-image:
+    linear-gradient(181.25deg, rgba(0, 0, 0, 0) 9.116%, rgba(0, 0, 0, 0.2) 99.018%),
+    url(../assets/img/woomen.jpeg);
+}
+
+.promo__item_bg-8 {
+  background-image:
+    linear-gradient(181.25deg, rgba(0, 0, 0, 0) 9.116%, rgba(0, 0, 0, 0.2) 99.018%),
+    url(../assets/img/spray.jpeg);
+}
+
+.promo__item_bg-9 {
+  background-image:
+    linear-gradient(181.25deg, rgba(0, 0, 0, 0) 9.116%, rgba(0, 0, 0, 0.2) 99.018%),
+    url(../assets/img/toys.jpeg);
+}
+
+.promo__item_bg-10 {
+  background-image:
+    linear-gradient(181.25deg, rgba(0, 0, 0, 0) 9.116%, rgba(0, 0, 0, 0.2) 99.018%),
+    url(../assets/img/2022.jpeg);
+}
+
+.card {
+  position: relative;
+  padding: 10px;
+  display: grid;
+  align-items: end;
+}
+
+.card__text {
+  font-size: 12px;
+}
+
+.card__text_medium {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.card__text_medium_upper {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card__text_bg-white {
+  border-radius: 6px;
+  padding: 7px 41px 9px 41px;
+  background-color: #fff;
+  color: red;
+}
+
+.card__text_bold {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card__text_bg-blue {
+  border-radius: 6px;
+  padding: 9px 25px;
+  background-color: #38C0EB;
+}
+
+.card__text_min-content {
+  display: block;
+  width: min-content;
+}
+
+.card__text_max-content {
+  display: block;
+  width: max-content;
+}
+
+.card__text_pt {
+  align-self: start;
+  padding-top: 18px;
+}
+
+.card__sale {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FFBD13;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.card__sale_top_left {
+  left: 5px;
+  top: 5px;
+}
+
+.card__sale_bottom_right {
+  bottom: 5px;
+  right: 5px;
+}
