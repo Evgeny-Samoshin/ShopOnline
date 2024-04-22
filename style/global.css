@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Lato";
   src: local("Lato"),
-    url(./assets/fonts/lato-bold.woff2) format(woff2),
-    url(./assets/fonts/lato-bold.woff) format(woff);
+    url(../assets/fonts/lato-bold.woff2) format(woff2),
+    url(../assets/fonts/lato-bold.woff) format(woff);
   font-weight: 700;
   font-display: swap;
 }
@@ -10,22 +10,21 @@
 @font-face {
   font-family: "Lato";
   src: local("Lato"),
-    url(./assets/fonts/lato-regular.woff2) format(woff2),
-    url(./assets/fonts/lato-regular.woff) format(woff);
+    url(../assets/fonts/lato-regular.woff2) format(woff2),
+    url(../assets/fonts/lato-regular.woff) format(woff);
   font-weight: 400;
   font-display: swap;
 }
 
 html {
   position: relative;
-  box-sizing: border-box;
   font-size: 62.5%;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {
@@ -159,6 +158,10 @@ h1 {
   font-size: 2rem;
   line-height: 2.3rem;
   text-align: center;
+}
+
+.footer {
+  height: 200px;
 }
 
 @media (min-width: 426px) {
