@@ -158,6 +158,10 @@
 }
 
 @media (min-width: 1600px) {
+  .hero {
+    padding: 60px 0;
+  }
+  
   .hero__slogan {
     padding-left: 0;
   }
